@@ -14,3 +14,4 @@ that .dataString was still in there. <br/>
     grWebhook.payload = request.body; <br/>
 and now with  grWebhook.payload = request.body.dataString;
 ??
+set to just body, which is declared at the top of the code.
