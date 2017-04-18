@@ -11,4 +11,5 @@ Are we done? <br/>
 If I could spell, maybe we would have been. <br/>
 argh.  still?
 that .dataString was still in there. <br/>
-    grWebhook.payload = request.body;
+    grWebhook.payload = request.body; <br/>
+and now with  grWebhook.payload = request.body.dataString;
